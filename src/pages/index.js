@@ -1,11 +1,10 @@
 import { graphql, useStaticQuery } from "gatsby"
 
-import ContentMain from "@/ContentMain"
 import Header from "@/Header"
+import InfosAndTips from "@/Sections/InfosAndTips"
 import Layout from "@/Layout"
 import React from "react"
 import SEO from "@/seo"
-import SidebarMenu from "@/SidebarMenu"
 
 const IndexPage = () => {
   const Metadata = useStaticQuery(graphql`
@@ -36,9 +35,7 @@ const IndexPage = () => {
         description={Metadata.site.siteMetadata.description}
       />
       <Header />
-      <ContentMain>
-        <SidebarMenu />
-      </ContentMain>
+      <InfosAndTips />
     </Layout>
   )
 }

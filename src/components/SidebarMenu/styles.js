@@ -11,6 +11,9 @@ export const Container = styled.div`
   border-right: 1px solid var(--second-color);
   margin-right: 75px;
 `
+export const LogoGL = styled.div`
+  margin-bottom: 60px;
+`
 export const Wrapper = styled.div`
   width: 100%;
   height: 100%;
@@ -18,10 +21,16 @@ export const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   padding-top: 70px;
+  position: relative;
 `
 export const TitleSection = styled.h3`
   font-size: 0.875rem;
   font-family: "Josefin Sans";
   font-weight: 300;
   color: white;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transform: rotate(180deg);
 `

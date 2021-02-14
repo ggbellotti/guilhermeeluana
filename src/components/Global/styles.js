@@ -39,7 +39,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: #fff;
     font-family: 'Didact Gothic';
     font-size: 16px;
-    color: #000;
+    color: #fff;
     
     // ANIMATION LOADING
     
@@ -66,23 +66,23 @@ const GlobalStyle = createGlobalStyle`
   }
   h1{
     font-size: 2rem;
-    margin: 50px 0px;
+    margin: 10px 0px 30px 0px;
     font-family: 'Cormorant';
-    text-align: center;
   }
   h2{
     font-family: 'Josefin Sans';
     font-size: 1.5rem;
-    margin: 30px 0px 20px 0px;
+    margin: 0;
   }
   h3{
     font-family: 'Cormorant';
     font-size: 1.25rem;
-    margin-bottom: 20px;
   }
   p{
     font-family: 'Didact Gothic';
     font-size: 1rem;
+    line-height: 1.6;
+    letter-spacing: 1px;
     margin-bottom: 10px;
   }
   ol, ul {
