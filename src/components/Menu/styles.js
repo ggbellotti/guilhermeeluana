@@ -54,14 +54,18 @@ export const Navbar = styled.ul`
   display: flex;
   justify-content: center;
   transition: all 0s ease;
+  z-index: 5;
+  overflow: auto;
   @media (max-width: 768px) {
-    position: absolute;
+    position: fixed;
     width: 100%;
     left: 0;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 500px;
+    min-height: 320px;
+    height: 70vh;
+    padding-top: 30px;
     top: 0;
     background-color: var(--main-color);
     transition: ${({ open }) => (open ? "all 0.25s ease" : "all 0s ease")};
@@ -80,7 +84,7 @@ export const NavItem = styled.li`
   }
   @media (max-width: 768px) {
     margin: 0;
-    padding: 15px 0;
+    padding: 10px 0;
     &:first-of-type {
       padding-top: 0;
     }
@@ -232,5 +236,20 @@ export const NavLinkDefault = styled.a`
         var(--second-color)
       );
     }
+  }
+`
+export const Overlay = styled.div`
+  display: none;
+  @media (max-width: 768px) {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.95);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: ${({ open }) => (open ? "4" : "-1")};
+    /* transition: ${({ open }) =>
+      open ? "all 0.05s ease" : "all 0s ease"}; */
+    opacity: ${({ open }) => (open ? "1" : "0")};
+    transform: ${({ open }) => (open ? "translateY(0)" : "translateY(-100%)")};
   }
 `

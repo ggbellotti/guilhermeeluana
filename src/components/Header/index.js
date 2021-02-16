@@ -1,27 +1,14 @@
 import * as S from "./styles"
 
-import { graphql, useStaticQuery } from "gatsby"
-
+import { Image } from "@/BackgroundImage"
 import React from "react"
 
 const Header = () => {
-  const bgImg = useStaticQuery(graphql`
-    query {
-      file(relativePath: { eq: "bg-home.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1920, quality: 70) {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
-          }
-        }
-      }
-    }
-  `)
   return (
-    <S.Container>
-      <S.BackgroundImage
-        alt="Guilherme e Luana no Morro Capuava"
-        fluid={bgImg.file.childImageSharp.fluid}
-      />
+    <S.Container id="topo">
+      <S.BackgroundImage>
+        <Image name="bg-home.png" alt="Guilherme e Luana no Morro da Capuava" />
+      </S.BackgroundImage>
       <S.TextInfos>
         <S.Title>
           Guilherme <br />& Luana

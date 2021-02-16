@@ -4,7 +4,7 @@ import React from "react"
 
 const Logo = () => {
   return (
-    <S.Container>
+    <S.Container title="Guilherme e Luana">
       <svg
         width="30"
         height="45"

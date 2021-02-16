@@ -3,14 +3,16 @@ import * as S from "./styles"
 import Logo from "@/Logo"
 import React from "react"
 
-const SidebarMenu = props => {
+const SidebarMenu = ({ id, title }) => {
   return (
-    <S.Container>
+    <S.Container id={id ? id : ""}>
       <S.Wrapper>
-        <S.LogoGL>
-          <Logo />
-        </S.LogoGL>
-        <S.TitleSection>{props.title ? props.title : ""}</S.TitleSection>
+        <S.Content>
+          <S.LogoGL>
+            <Logo />
+          </S.LogoGL>
+          <S.TitleSection>{title ? title : ""}</S.TitleSection>
+        </S.Content>
       </S.Wrapper>
     </S.Container>
   )

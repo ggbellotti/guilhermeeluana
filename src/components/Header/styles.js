@@ -1,5 +1,4 @@
 import { AnchorLink } from "gatsby-plugin-anchor-links"
-import Img from "gatsby-image"
 import styled from "styled-components"
 
 export const Container = styled.header`
@@ -16,14 +15,21 @@ export const Container = styled.header`
     min-height: 675px;
   }
 `
-export const BackgroundImage = styled(Img)`
+export const BackgroundImage = styled.div`
   position: fixed !important;
   width: 100%;
   height: 100vh;
-  z-index: 1;
   top: 0;
-  img {
-    object-position: center bottom !important;
+  z-index: 1;
+  .gatsby-image-wrapper {
+    position: fixed !important;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    z-index: 1;
+    img {
+      object-position: center bottom !important;
+    }
   }
 `
 export const TextInfos = styled.div`
@@ -41,7 +47,7 @@ export const TextInfos = styled.div`
     min-height: 675px;
   }
   @media (max-height: 400px) {
-    min-height: auto;
+    min-height: 350px;
   }
   @media (max-width: 768px) {
   }

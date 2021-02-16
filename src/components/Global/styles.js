@@ -9,6 +9,9 @@ const GlobalStyle = createGlobalStyle`
     --five-color: #008080;
     --six-color: #5F9EA0;
   }
+  .tl-edges{
+    overflow: inherit!important;
+  }
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -101,7 +104,9 @@ const GlobalStyle = createGlobalStyle`
     border-spacing: 0;
   }
   .showMenu{
-    overflow: hidden;
+    @media (max-width: 768px) {
+      overflow: hidden;
+    }
   }
   .hideLoading{
     display: none !important;

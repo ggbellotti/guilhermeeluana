@@ -13,7 +13,7 @@ const Menu = () => {
     <S.Container open={open}>
       <S.MenuToggle
         open={open}
-        href="#"
+        href="#menu"
         title={open ? "Fechar menu" : "Abrir o menu"}
         onClick={() => setOpen(!open)}
       >
@@ -24,7 +24,7 @@ const Menu = () => {
       </S.MenuToggle>
       <S.Navbar open={open}>
         {links.map((link, i) => (
-          <S.NavItem open={open} key={i}>
+          <S.NavItem open={open} key={i} onClick={() => setOpen(!open)}>
             <S.NavLink
               to={link.url}
               title={
@@ -46,6 +46,7 @@ const Menu = () => {
           </S.NavLinkDefault>
         </S.NavItem>
       </S.Navbar>
+      <S.Overlay open={open} />
     </S.Container>
   )
 }

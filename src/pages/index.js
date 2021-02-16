@@ -8,7 +8,7 @@ import SEO from "@/seo"
 
 const IndexPage = () => {
   const Metadata = useStaticQuery(graphql`
-    query metadata {
+    query metadataIndex {
       site {
         siteMetadata {
           description

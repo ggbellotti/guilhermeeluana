@@ -8,4 +8,9 @@ export const Container = styled.div`
   background-color: var(--third-color);
   position: relative;
   z-index: 2;
+  @media (max-width: 845px) {
+    flex-direction: column;
+    padding: 0 25px;
+    width: calc(100% - 50px);
+  }
 `
