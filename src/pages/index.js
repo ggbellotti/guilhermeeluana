@@ -1,5 +1,6 @@
 import { graphql, useStaticQuery } from "gatsby"
 
+import AboutUs from "@/Sections/AboutUs"
 import Header from "@/Header"
 import InfosAndTips from "@/Sections/InfosAndTips"
 import Layout from "@/Layout"
@@ -36,6 +37,7 @@ const IndexPage = () => {
       />
       <Header />
       <InfosAndTips />
+      <AboutUs />
     </Layout>
   )
 }
