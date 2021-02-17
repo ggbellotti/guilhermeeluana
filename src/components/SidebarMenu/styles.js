@@ -1,12 +1,13 @@
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 import styled from "styled-components"
 
 export const Container = styled.div`
   width: 70px;
   min-width: 70px;
   height: auto;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   border-right: 1px solid var(--second-color);
-  margin-right: 75px;
+  margin-right: ${props => (props.full ? "0" : "75px")};
   @media (max-width: 845px) {
     width: 100%;
     min-height: auto;
@@ -63,5 +64,24 @@ export const TitleSection = styled.h3`
     transform: rotate(0);
     writing-mode: unset;
     text-orientation: unset;
+  }
+`
+export const Topo = styled(AnchorLink)`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 115px;
+  span {
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    font-family: "Josefin Sans";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  svg {
+    margin-bottom: 20px;
+    transform: rotate(90deg);
   }
 `
