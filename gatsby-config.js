@@ -10,7 +10,7 @@ module.exports = {
     phone: `5511984098171`,
   },
   flags: {
-    FAST_DEV: true,
+    DEV_SSR: false,
   },
   plugins: [
     `gatsby-plugin-sharp`,
@@ -105,12 +105,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
-        head: false,
-        anonymize: true,
-        respectDNT: true,
+        trackingIds: [process.env.GOOGLE_ANALYTICS_ID],
+        pluginConfig: {
+          head: false,
+          respectDNT: true,
+        },
       },
     },
     `gatsby-plugin-transition-link`,

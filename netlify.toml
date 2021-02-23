@@ -1,2 +1,3 @@
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
+  package = "@helloample/netlify-plugin-replace"
