@@ -7,7 +7,7 @@ export const Container = styled.nav`
   text-align: center;
   position: absolute;
   z-index: 50;
-  @media (max-width: 768px) {
+  @media (max-width: 845px) {
     top: 0;
     margin: 0;
     height: ${({ open }) => (open ? "100%" : "0%")};
@@ -22,7 +22,7 @@ export const MenuToggle = styled.a`
   z-index: 99;
   position: fixed;
   right: 0;
-  @media (max-width: 768px) {
+  @media (max-width: 845px) {
     background-color: var(--main-color);
     padding: 5px;
     display: flex;
@@ -56,7 +56,7 @@ export const Navbar = styled.ul`
   transition: all 0s ease;
   z-index: 5;
   overflow: auto;
-  @media (max-width: 768px) {
+  @media (max-width: 845px) {
     position: fixed;
     width: 100%;
     left: 0;
@@ -82,7 +82,7 @@ export const NavItem = styled.li`
   &:last-of-type {
     margin-right: 0;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 845px) {
     margin: 0;
     padding: 10px 0;
     &:first-of-type {
@@ -155,7 +155,7 @@ export const NavLink = styled(AnchorLink)`
       width: 50%;
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 845px) {
     &::before {
       background-image: linear-gradient(
         45deg,
@@ -221,7 +221,7 @@ export const NavLinkDefault = styled.a`
       width: 50%;
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 845px) {
     &::before {
       background-image: linear-gradient(
         45deg,
@@ -240,7 +240,7 @@ export const NavLinkDefault = styled.a`
 `
 export const Overlay = styled.div`
   display: none;
-  @media (max-width: 768px) {
+  @media (max-width: 845px) {
     display: block;
     background-color: rgba(0, 0, 0, 0.95);
     position: fixed;

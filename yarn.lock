@@ -9176,6 +9176,14 @@ gatsby-plugin-anchor-links@^1.2.1:
   dependencies:
     scroll-to-element "^2.0.3"
 
+gatsby-plugin-google-analytics@^2.11.0:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.11.0.tgz#8d74bd3c100706f03bbccf7b130a758fce9994ad"
+  integrity sha512-aVFmzoozd0ifn5HJJY0W8R7DHkyTEvj/ueRyJJNlQMadQagIAYq+7efKon4gJzd4NZkLcoDb6moiAR066FwIIg==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    minimatch "3.0.4"
+
 gatsby-plugin-google-fonts-v2@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-fonts-v2/-/gatsby-plugin-google-fonts-v2-0.0.6.tgz#1bee21ca9fc0ff50e90bb0fe8fb98935071b5b22"
@@ -9205,6 +9213,13 @@ gatsby-plugin-graphql-codegen@^2.7.1:
     "@graphql-toolkit/url-loader" "^0.10.2"
     fs-extra "^7.0.1"
     lodash.debounce "^4.0.8"
+
+gatsby-plugin-hotjar@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-hotjar/-/gatsby-plugin-hotjar-1.1.1.tgz#b910209c80fb2a0df9e0dc1b52de7270d9831b31"
+  integrity sha512-zEuZuZPokvBZvfKg7W0MjPoydFnD8NqhgB0Rm32A7HTWu44vvH+UYt0NsvnyINYmICS9ftv+y/k3WAAzkAIUNw==
+  dependencies:
+    babel-runtime "^6.26.0"
 
 gatsby-plugin-manifest@^2.12.0:
   version "2.12.0"

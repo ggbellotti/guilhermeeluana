@@ -64,6 +64,7 @@ const Image = ({ name, alt, className }) => (
             className={className ? className : ""}
             fluid={image.sharp.fluid}
             alt={alt ? alt : ""}
+            title={alt ? alt : ""}
           />
         ) : null
       }

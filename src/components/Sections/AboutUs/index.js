@@ -8,7 +8,7 @@ import SidebarMenu from "@/SidebarMenu"
 const AboutUs = () => {
   return (
     <ContentMain>
-      <SidebarMenu id="sobre-nos" title="Sobre nós" />
+      <SidebarMenu id="sobre-nos" title="Sobre nós" topo />
       <S.Container>
         <h3>Cântico 132</h3>
         <h1>

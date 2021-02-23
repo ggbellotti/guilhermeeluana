@@ -8,16 +8,22 @@ export const Container = styled.div`
   /* min-height: 100vh; */
   border-right: 1px solid var(--second-color);
   margin-right: ${props => (props.full ? "0" : "75px")};
+  &.noHeader {
+    @media (max-width: 845px) {
+      padding-top: 60px;
+    }
+  }
   @media (max-width: 845px) {
     width: 100%;
     min-height: auto;
     border-right: none;
     border-bottom: 1px solid var(--second-color);
+    /* background-color: var(--second-color); */
     padding: 0;
     margin: 0;
   }
 `
-export const LogoGL = styled.div`
+export const LogoGL = styled(AnchorLink)`
   margin-bottom: 60px;
   @media (max-width: 845px) {
     margin-bottom: 0;
@@ -72,6 +78,9 @@ export const Topo = styled(AnchorLink)`
   align-items: center;
   justify-content: center;
   margin-top: 115px;
+  @media (max-width: 845px) {
+    display: none;
+  }
   span {
     margin: 0;
     padding: 0;

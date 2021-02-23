@@ -99,14 +99,17 @@ export const SubTitle = styled.h2`
   }
 `
 export const ScrollDown = styled(AnchorLink)`
-  margin-top: 60px;
+  margin-top: 20px;
   padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 50px;
+  height: 90px;
   span {
     position: relative;
     margin-bottom: 10px;
+    width: max-content;
     &::after {
       content: "";
       position: absolute;

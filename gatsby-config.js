@@ -2,12 +2,15 @@ const path = require("path")
 require("dotenv").config()
 module.exports = {
   siteMetadata: {
-    title: `Guilherme e Luana`,
+    title: `G&L Casamento`,
     description: `Casamento de Guilherme e Luana em São Sebastião - São Paulo. Este site irá lhe ajudar a tirar suas dúvidas.`,
     author: `Guilherme e Luana`,
     siteUrl: `https://guilhermeeluana.com.br`,
     email: `guibellotti@hotmail.com`,
     phone: `5511984098171`,
+  },
+  flags: {
+    FAST_DEV: true,
   },
   plugins: [
     `gatsby-plugin-sharp`,
@@ -77,21 +80,37 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-anchor-links",
-      options: {
-        offset: 0,
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Guilherme e Luana`,
-        short_name: `Guilherme e Luana`,
+        name: `Casamento - Guilherme e Luana`,
+        short_name: `G&L Casamento`,
         start_url: `/`,
         background_color: `#4B6A7E`,
         theme_color: `#4B6A7E`,
         display: `minimal-ui`,
         icon: `static/img/icon-app.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -50,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        includeInDevelopment: true,
+        id: process.env.HOTJAR,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+        head: false,
+        anonymize: true,
+        respectDNT: true,
       },
     },
     `gatsby-plugin-transition-link`,

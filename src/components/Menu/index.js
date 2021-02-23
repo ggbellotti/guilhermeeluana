@@ -41,6 +41,7 @@ const Menu = () => {
             href="https://google.com.br"
             target="_blank"
             rel="noopener noreferrer"
+            title="Lista de presentes"
           >
             LISTA DE PRESENTES
           </S.NavLinkDefault>

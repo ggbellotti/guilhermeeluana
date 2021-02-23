@@ -3,17 +3,18 @@ import * as S from "./styles"
 import Logo from "@/Logo"
 import React from "react"
 
-const SidebarMenu = ({ id, title, topo, voltar, full }) => {
+const SidebarMenu = ({ id, title, topo, voltar, full, to, noHeader }) => {
   return (
     <S.Container
       id={id ? id : ""}
       topo={topo ? topo : ""}
       voltar={voltar ? voltar : ""}
       full={full ? full : ""}
+      className={noHeader ? "noHeader" : ""}
     >
       <S.Wrapper>
         <S.Content>
-          <S.LogoGL>
+          <S.LogoGL to={id ? "/#" + id : "/#topo"}>
             <Logo />
           </S.LogoGL>
           <S.TitleSection>{title ? title : ""}</S.TitleSection>
@@ -37,7 +38,7 @@ const SidebarMenu = ({ id, title, topo, voltar, full }) => {
             ""
           )}
           {voltar === true ? (
-            <S.Topo to="/#topo" title="Subir">
+            <S.Topo to={to ? to : "/#topo"} title="Voltar">
               <svg
                 style={{ transform: "rotate(0)" }}
                 width="21"
@@ -51,7 +52,7 @@ const SidebarMenu = ({ id, title, topo, voltar, full }) => {
                   fill="white"
                 />
               </svg>
-              <span>Subir</span>
+              <span>Voltar</span>
             </S.Topo>
           ) : (
             ""

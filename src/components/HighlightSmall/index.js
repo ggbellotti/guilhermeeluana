@@ -8,7 +8,7 @@ const Highlight = ({ children, title, bgColor, alt, name }) => {
     <S.Container>
       <S.Wrapper>
         <S.BackgroundImage>
-          <Image name={name} alt={alt} title={alt} />
+          <Image name={name} alt={alt} />
         </S.BackgroundImage>
         <S.BoxInfos bgColor={bgColor}>
           <S.Infos>

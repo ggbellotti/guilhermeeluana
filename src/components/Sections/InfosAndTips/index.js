@@ -21,7 +21,7 @@ const InfosAndTips = () => {
 
   return (
     <ContentMain>
-      <SidebarMenu id="informacoes-e-dicas" title="Informações e dicas" />
+      <SidebarMenu id="informacoes-e-dicas" title="Informações e dicas" topo />
       <S.Container>
         <h3>O dia mais importante!</h3>
         <h1>Lembre-se com carinho dessa data inesquecível</h1>
@@ -80,15 +80,10 @@ const InfosAndTips = () => {
           também fizemos uma lista com referências de pousadas e hotéis na
           região.
         </p>
-        <S.SectionTips>
+        <S.SectionTips id="dicas-de-roupas">
           <S.WrapperTips>
             <S.ContainerTips bgColor="var(--five-color)">
-              <S.ItemTips
-                title="Ver dicas de roupas"
-                cover
-                bg="#2B1500"
-                to="/dicas-roupas/"
-              >
+              <S.ItemTips title="Ver dicas de roupas" cover to="/dicas-roupas/">
                 <S.TitleTips>
                   Dicas de
                   <br />
@@ -98,48 +93,37 @@ const InfosAndTips = () => {
               </S.ItemTips>
             </S.ContainerTips>
             <S.ContainerTips>
-              <S.ItemTips
-                title="Ver dicas de roupas"
-                cover
-                bg="#2B1500"
-                to="/dicas-roupas/"
-              >
+              <S.ItemTips title="Ver dicas de roupas" cover to="/dicas-roupas/">
                 <S.BackgroundTips>
                   <Image
                     name="f128g1yd12.png"
-                    alt="Dica de roupas para casamento de Guilherme e Luana"
+                    alt="Dicas de roupas para casamento de Guilherme e Luana"
                   />
                 </S.BackgroundTips>
               </S.ItemTips>
             </S.ContainerTips>
             <S.ContainerTips>
-              <S.ItemTips
-                title="Ver dicas de roupas"
-                cover
-                bg="#2B1500"
-                to="/dicas-roupas/"
-              >
+              <S.ItemTips title="Ver dicas de roupas" cover to="/dicas-roupas/">
                 <S.BackgroundTips>
                   <Image
                     name="132dgs76371.png"
-                    alt="Dica de roupas para casamento de Guilherme e Luana"
+                    alt="Dicas de roupas para casamento de Guilherme e Luana"
                   />
                 </S.BackgroundTips>
               </S.ItemTips>
             </S.ContainerTips>
           </S.WrapperTips>
-          <S.WrapperTips>
+          <S.WrapperTips id="dicas-de-pousadas">
             <S.ContainerTips>
               <S.ItemTips
                 title="Ver dicas de pousadas"
                 cover
-                bg="#2B1500"
                 to="/dicas-pousadas/"
               >
                 <S.BackgroundTips>
                   <Image
                     name="pousada-vila-barequecaba.jpg"
-                    alt="Dica de roupas para casamento de Guilherme e Luana"
+                    alt="Dicas de pousadas para casamento de Guilherme e Luana"
                   />
                 </S.BackgroundTips>
               </S.ItemTips>
@@ -148,13 +132,12 @@ const InfosAndTips = () => {
               <S.ItemTips
                 title="Ver dicas de pousadas"
                 cover
-                bg="#2B1500"
                 to="/dicas-pousadas/"
               >
                 <S.BackgroundTips>
                   <Image
                     name="pousada-ipe.jpg"
-                    alt="Dica de roupas para casamento de Guilherme e Luana"
+                    alt="Dicas de roupas para casamento de Guilherme e Luana"
                   />
                 </S.BackgroundTips>
               </S.ItemTips>
@@ -163,7 +146,6 @@ const InfosAndTips = () => {
               <S.ItemTips
                 title="Ver dicas de pousadas"
                 cover
-                bg="#2B1500"
                 to="/dicas-pousadas/"
               >
                 <S.TitleTips>

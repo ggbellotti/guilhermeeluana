@@ -37,6 +37,10 @@ const GlobalStyle = createGlobalStyle`
   footer, header, hgroup, menu, nav, section {
     display: block;
   }
+  span.mark, mark{
+    background-color: var(--main-color);
+    color: white;
+  }
   body {
     line-height: 1.2;
     background-color: #fff;
@@ -74,8 +78,8 @@ const GlobalStyle = createGlobalStyle`
   }
   h2{
     font-family: 'Josefin Sans';
+    margin: 10px 0px 30px 0px;
     font-size: 1.5rem;
-    margin: 0;
   }
   h3{
     font-family: 'Cormorant';
@@ -139,7 +143,7 @@ const GlobalStyle = createGlobalStyle`
         opacity: 1;
       }
       100%{
-        opacity: 0;
+        opacity: 1;
       }
     }
     animation: animationLoading 2s ease;

@@ -34,4 +34,27 @@ class ButtonSecondary extends Component {
   }
 }
 
-export { ButtonPrimary, ButtonSecondary }
+class ButtonIcon extends Component {
+  render() {
+    return (
+      <S.ButtonIcon
+        cover
+        bg="#FFE4C4"
+        to={this.props.to ? this.props.to : "/"}
+        title={this.props.title ? this.props.title : this.props.text}
+        className={this.props.className}
+      >
+        <span>
+          {this.props.icon ? (
+            <img src={this.props.icon} alt={this.props.alt} />
+          ) : (
+            this.props.children
+          )}
+          {this.props.title ? this.props.title : "Button icon"}
+        </span>
+      </S.ButtonIcon>
+    )
+  }
+}
+
+export { ButtonPrimary, ButtonSecondary, ButtonIcon }

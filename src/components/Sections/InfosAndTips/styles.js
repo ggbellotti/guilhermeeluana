@@ -1,11 +1,13 @@
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 import styled from "styled-components"
 
 export const Container = styled.div`
   margin-top: 70px;
   padding-right: 75px;
   @media (max-width: 845px) {
-    padding-right: 0px;
+    /* padding-right: 0px; */
+    padding: 0 25px;
+    width: calc(100% - 50px);
   }
 `
 export const ContainerHL = styled.div`
@@ -118,7 +120,7 @@ export const WrapperTips = styled.div`
     }
   }
 `
-export const ItemTips = styled(AniLink)`
+export const ItemTips = styled(AnchorLink)`
   transition: all 0.355s;
   position: relative;
   width: calc(100% - 30px);
@@ -128,6 +130,7 @@ export const ItemTips = styled(AniLink)`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: 0.125s ease-in-out;
   &:hover {
     transform: scale(1.1);
   }
@@ -142,7 +145,6 @@ export const TitleTips = styled.h1`
   }
 `
 export const LinkOff = styled.span`
-  padding: 8px 14px;
   background-color: white;
   color: black;
   font-size: 0.8125rem;
@@ -151,6 +153,8 @@ export const LinkOff = styled.span`
   letter-spacing: 1px;
   transition: all 0.125s ease;
   cursor: pointer;
+  line-height: 1;
+  padding: 11px 14px 8px 14px;
   &:hover {
     background-color: var(--third-color);
     color: white;

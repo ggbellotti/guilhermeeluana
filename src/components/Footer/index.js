@@ -26,7 +26,7 @@ const Footer = () => {
           </S.Item>
           <S.Item>
             <S.BackgroundImage>
-              <Image name="_MG_2442.jpg" alt="Guilherme e Luana" />
+              <Image name="_MG_4464.jpg" alt="Guilherme e Luana" />
             </S.BackgroundImage>
           </S.Item>
           <S.Item>
@@ -40,6 +40,13 @@ const Footer = () => {
             </S.Description>
           </S.Item>
         </S.Wrapper>
+        <S.By
+          href="https://guilhermebellotti.dev"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Feito por Guilherme Bellotti
+        </S.By>
       </S.Container>
     </ContentMain>
   )

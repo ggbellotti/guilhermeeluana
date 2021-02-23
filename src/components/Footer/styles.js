@@ -2,15 +2,20 @@ import styled from "styled-components"
 
 export const Container = styled.div`
   width: 100%;
-  margin: 50px 0;
+  margin: 50px 0 15px 0;
   @media (max-width: 845px) {
-    padding-right: 0px;
+    /* padding-right: 0px; */
+    /* padding: 0 25px;
+    width: calc(100% - 50px); */
   }
 `
 export const Wrapper = styled.div`
   min-height: 650px;
   width: 100%;
   display: flex;
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
 `
 export const Item = styled.div`
   height: auto;
@@ -21,14 +26,28 @@ export const Item = styled.div`
   flex-direction: column;
   padding: 55px;
   position: relative;
+  @media (max-width: 1024px) {
+    padding: 15px;
+    max-width: calc(100% - 30px);
+    min-height: 250px;
+  }
   &:nth-child(1) {
     background-color: var(--main-color);
+    @media (max-width: 1024px) {
+      order: 3;
+    }
   }
   &:nth-child(2) {
     background-color: var(--five-color);
+    @media (max-width: 1024px) {
+      order: 2;
+    }
   }
   &:nth-child(3) {
     background-color: var(--six-color);
+    @media (max-width: 1024px) {
+      order: 1;
+    }
   }
 `
 export const BackgroundImage = styled.div`
@@ -53,4 +72,16 @@ export const Description = styled.p`
   margin: 0;
   padding: 0;
   font-size: 1rem;
+`
+export const By = styled.a`
+  font-size: 0.75rem;
+  font-family: "Josefin Sans";
+  text-decoration: none;
+  text-align: center;
+  margin: 25px auto 0 auto;
+  display: flex;
+  width: fit-content;
+  &:hover {
+    text-decoration: underline;
+  }
 `

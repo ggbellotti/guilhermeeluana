@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import Layout from "@/Layout"
 import React from "react"
 import SEO from "@/seo"
+import TipsInns from "@/Sections/TipsInns"
 
 const DicasPousadas = () => {
   const Metadata = useStaticQuery(graphql`
@@ -19,8 +20,9 @@ const DicasPousadas = () => {
       <SEO
         title="Dicas de Pousadas"
         description={Metadata.site.siteMetadata.description}
+        image="/static/img/espaco-chico.png"
       />
-      <h1>Dicas de pousadas</h1>
+      <TipsInns />
     </Layout>
   )
 }
