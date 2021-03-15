@@ -162,7 +162,7 @@ const InfosAndTips = () => {
         <HighlightSmall
           title="Felizes por estarmos juntos"
           bgColor="var(--six-color)"
-          name="20190623_130923.jpg"
+          name="_MG_4619.jpg"
           alt="Foto de Guilherme e Luana"
         >
           <p>

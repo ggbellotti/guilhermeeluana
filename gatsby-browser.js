@@ -21,8 +21,8 @@ function onServiceWorkerUpdateReady() {
 
 export { onServiceWorkerUpdateReady }
 
-// export const onInitialClientRender = () => {
-//   setTimeout(function () {
-//     document.getElementById("___loader").classList.add("hideLoading")
-//   }, 2000)
-// }
+export const onInitialClientRender = () => {
+  setTimeout(function () {
+    document.getElementById("___loader").classList.add("hideLoading")
+  }, 2000)
+}

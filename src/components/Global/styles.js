@@ -143,7 +143,7 @@ const GlobalStyle = createGlobalStyle`
         opacity: 1;
       }
       100%{
-        opacity: 1;
+        opacity: 0;
       }
     }
     animation: animationLoading 2s ease;

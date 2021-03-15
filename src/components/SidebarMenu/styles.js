@@ -66,6 +66,8 @@ export const TitleSection = styled.h3`
   text-transform: uppercase;
   letter-spacing: 1px;
   transform: rotate(180deg);
+  display: flex;
+  align-items: center;
   @media (max-width: 845px) {
     transform: rotate(0);
     writing-mode: unset;
