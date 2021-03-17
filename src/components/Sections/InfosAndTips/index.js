@@ -22,6 +22,7 @@ const InfosAndTips = () => {
   return (
     <ContentMain>
       <SidebarMenu id="informacoes-e-dicas" title="Informações e dicas" topo />
+
       <S.Container>
         <h3>O dia mais importante!</h3>
         <h1>Lembre-se com carinho dessa data inesquecível</h1>
@@ -34,7 +35,7 @@ const InfosAndTips = () => {
           title="Quando e onde"
           bgColor="var(--main-color)"
           name="20200705_132637.jpg"
-          alt="Vista do Espaço Chico"
+          alt="Vista da cerimônia no Espaço Chico em São Sebastião"
         >
           <S.ContainerHL>
             <S.WrapperHL>
@@ -163,7 +164,8 @@ const InfosAndTips = () => {
           title="Felizes por estarmos juntos"
           bgColor="var(--six-color)"
           name="_MG_4619.jpg"
-          alt="Foto de Guilherme e Luana"
+          alt="Guilherme e Luana no Morro do Capuava"
+          alignRight
         >
           <p>
             Queremos que saibam que seu carinho e apoio, nos fez ter certeza de

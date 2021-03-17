@@ -28,7 +28,7 @@ export const BackgroundImage = styled.div`
     top: 0;
     z-index: 1;
     img {
-      object-position: center bottom !important;
+      object-position: right bottom !important;
     }
   }
 `

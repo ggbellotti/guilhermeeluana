@@ -32,6 +32,10 @@ export const BackgroundImage = styled.div`
     width: 50%;
     height: auto;
     height: 600px;
+    picture img {
+      object-position: ${props =>
+        props.alignRight ? "right !important" : "center center !important"};
+    }
     @media (max-width: 1280px) {
     }
     @media (max-width: 1024px) {
@@ -64,13 +68,13 @@ export const BoxInfos = styled.div`
     margin-top: 0;
   }
   @media (max-width: 768px) {
-    margin-top: -150px;
+    margin-top: 0;
   }
   @media (max-width: 640px) {
     width: 100%;
   }
   @media (max-width: 575px) {
-    margin-top: -50px;
+    margin-top: 0px;
   }
 `
 export const Infos = styled.div`

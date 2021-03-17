@@ -12,6 +12,7 @@ const Header = ({ title, subtitle }) => {
           alt="Guilherme e Luana no Morro da Capuava"
         />
       </S.BackgroundImage>
+
       <S.TextInfos>
         <S.Title>
           {title ? (

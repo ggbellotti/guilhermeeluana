@@ -8,4 +8,18 @@ export const Container = styled.div`
     padding: 0 25px;
     width: calc(100% - 50px);
   }
+  .buttonEnsaio {
+    text-align: center;
+  }
+  .mansoryCard {
+    margin-bottom: 90px;
+  }
+`
+export const CallActionEnsaio = styled.div`
+  display: flex;
+  width: fit-content;
+  margin: 25px auto;
+  a:hover {
+    background-color: var(--main-color);
+  }
 `

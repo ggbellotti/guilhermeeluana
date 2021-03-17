@@ -62,7 +62,7 @@ export const BoxInfos = styled.div`
     width: 100%;
   }
   @media (max-width: 575px) {
-    margin-top: -50px;
+    margin-top: 0;
   }
 `
 export const Infos = styled.div`

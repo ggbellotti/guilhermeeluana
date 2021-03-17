@@ -59,6 +59,9 @@ export const BackgroundImage = styled.div`
   .gatsby-image-wrapper {
     height: 100%;
     width: 100%;
+    picture img {
+      object-position: center bottom !important;
+    }
   }
 `
 export const Title = styled.h1`

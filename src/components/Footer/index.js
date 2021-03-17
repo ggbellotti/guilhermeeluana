@@ -26,7 +26,10 @@ const Footer = () => {
           </S.Item>
           <S.Item>
             <S.BackgroundImage>
-              <Image name="_MG_4464.jpg" alt="Guilherme e Luana" />
+              <Image
+                name="_MG_4749.jpg"
+                alt="Guilherme e Luana no Morro da Capuava"
+              />
             </S.BackgroundImage>
           </S.Item>
           <S.Item>

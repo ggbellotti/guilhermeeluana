@@ -1,5 +1,6 @@
 import * as S from "./styles"
 
+import { ButtonSecondary } from "@/Buttons"
 import ContentMain from "@/ContentMain"
 import MansoryCards from "@/MansoryCards"
 import React from "react"
@@ -31,6 +32,9 @@ const AboutUs = () => {
           apoiaram.
         </p>
         <MansoryCards />
+        <S.CallActionEnsaio id="prewedding">
+          <ButtonSecondary to="/ensaio" title="Ver ensaio" />
+        </S.CallActionEnsaio>
       </S.Container>
     </ContentMain>
   )

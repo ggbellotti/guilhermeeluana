@@ -3,11 +3,11 @@ import * as S from "./styles"
 import { Image } from "@/BackgroundImage"
 import React from "react"
 
-const Highlight = ({ children, title, bgColor, alt, name }) => {
+const Highlight = ({ children, title, bgColor, alt, name, alignRight }) => {
   return (
     <S.Container>
       <S.Wrapper>
-        <S.BackgroundImage>
+        <S.BackgroundImage alignRight={alignRight}>
           <Image name={name} alt={alt} />
         </S.BackgroundImage>
         <S.BoxInfos bgColor={bgColor}>

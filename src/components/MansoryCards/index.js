@@ -5,40 +5,52 @@ import React from "react"
 
 const MansoryCards = () => {
   return (
-    <S.Container>
+    <S.Container className="mansoryCard">
       <S.Wrapper>
         <S.Content>
           <S.Item>
             <S.ImageBg>
-              <Image name="_MG_2442.jpg" alt="Guilherme e Luana" />
+              <Image
+                name="_MG_3743-Editar"
+                alt="Guilherme e Luana no Morro da Capuava"
+              />
             </S.ImageBg>
-            <S.Description>
+            {/* <S.Description>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </S.Description>
+            </S.Description> */}
           </S.Item>
           <S.Item>
             <S.ImageBg>
-              <Image name="_MG_2442.jpg" alt="Guilherme e Luana" />
+              <Image
+                name="_MG_4433.jpg"
+                alt="Guilherme e Luana no Morro da Capuava"
+              />
             </S.ImageBg>
-            <S.Description>
+            {/* <S.Description>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </S.Description>
+            </S.Description> */}
           </S.Item>
           <S.Item>
             <S.ImageBg>
-              <Image name="_MG_2442.jpg" alt="Guilherme e Luana" />
+              <Image
+                name="_MG_4848.jpg"
+                alt="Guilherme e Luana no Morro da Capuava"
+              />
             </S.ImageBg>
-            <S.Description>
+            {/* <S.Description>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </S.Description>
+            </S.Description> */}
           </S.Item>
           <S.Item>
             <S.ImageBg>
-              <Image name="_MG_2442.jpg" alt="Guilherme e Luana" />
+              <Image
+                name="_MG_4297.jpg"
+                alt="Guilherme e Luana no Morro da Capuava"
+              />
             </S.ImageBg>
-            <S.Description>
+            {/* <S.Description>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </S.Description>
+            </S.Description> */}
           </S.Item>
         </S.Content>
       </S.Wrapper>

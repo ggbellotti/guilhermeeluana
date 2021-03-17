@@ -47,6 +47,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Didact Gothic';
     font-size: 16px;
     color: #fff;
+    background-color: var(--third-color);
     
     // ANIMATION LOADING
     
@@ -91,6 +92,16 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1.6;
     letter-spacing: 1px;
     margin-bottom: 10px;
+    a{
+      font-family: 'Didact Gothic';
+      font-size: 1rem;
+      line-height: 1.6;
+      letter-spacing: 1px;
+      margin: 0;
+      text-decoration-line: underline;
+      text-decoration-style: wavy;
+      padding: 0;
+    }
   }
   ol, ul {
     list-style: none;
