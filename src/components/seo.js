@@ -30,7 +30,7 @@ function SEO({ description, lang, meta, title, image }) {
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
   const url = site.siteMetadata.siteUrl
-  const ogImage = `${url}${image || "/static/img/img-thumb-links.jpg"}`
+  const ogImage = `${url}${image || "/img/img-thumb-links.jpg"}`
 
   return (
     <Helmet
