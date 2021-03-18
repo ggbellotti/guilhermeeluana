@@ -25,18 +25,32 @@ const Menu = () => {
       <S.Navbar open={open}>
         {links.map((link, i) => (
           <S.NavItem open={open} key={i} onClick={() => setOpen(!open)}>
-            <S.NavLink
-              to={link.url}
-              title={
-                link.label.charAt(0).toUpperCase() +
-                link.label.slice(1).toLowerCase()
-              }
-            >
-              {link.label}
-            </S.NavLink>
+            {links.length - 1 === i ? (
+              <S.NavLinkDefault
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={
+                  link.label.charAt(0).toUpperCase() +
+                  link.label.slice(1).toLowerCase()
+                }
+              >
+                {link.label}
+              </S.NavLinkDefault>
+            ) : (
+              <S.NavLink
+                to={link.url}
+                title={
+                  link.label.charAt(0).toUpperCase() +
+                  link.label.slice(1).toLowerCase()
+                }
+              >
+                {link.label}
+              </S.NavLink>
+            )}
           </S.NavItem>
         ))}
-        <S.NavItem open={open}>
+        {/* <S.NavItem open={open}>
           <S.NavLinkDefault
             href="https://google.com.br"
             target="_blank"
@@ -45,7 +59,7 @@ const Menu = () => {
           >
             LISTA DE PRESENTES
           </S.NavLinkDefault>
-        </S.NavItem>
+        </S.NavItem> */}
       </S.Navbar>
       <S.Overlay open={open} />
     </S.Container>

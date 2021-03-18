@@ -8,7 +8,7 @@ const Header = ({ title, subtitle }) => {
     <S.Container id="topo">
       <S.BackgroundImage>
         <Image
-          name="_MG_4113-Editar.jpg"
+          name="banner-home.png"
           alt="Guilherme e Luana no Morro da Capuava"
         />
       </S.BackgroundImage>

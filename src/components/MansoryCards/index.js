@@ -33,7 +33,7 @@ const MansoryCards = () => {
           <S.Item>
             <S.ImageBg>
               <Image
-                name="_MG_4848.jpg"
+                name="_MG_4701.jpg"
                 alt="Guilherme e Luana no Morro da Capuava"
               />
             </S.ImageBg>

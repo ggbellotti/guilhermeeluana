@@ -18,7 +18,7 @@ const Prewedding = () => {
       />
 
       <S.Container>
-        <S.Wrapper>
+        <S.Wrapper id="ensaio">
           <h3>Pré-wedding no Morro do Capuava</h3>
           <h1>Um dos melhores lugares que já fotografamos</h1>
           <p>

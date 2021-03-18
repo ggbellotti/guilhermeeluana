@@ -41,6 +41,7 @@ export const Description = styled.p`
     letter-spacing: 1px;
     margin-bottom: 0;
     padding: 0;
+    text-decoration: none;
     &:hover {
       text-decoration: underline;
     }
