@@ -12,7 +12,7 @@ export const NotificationWrapper = styled.div`
   left: 0;
   padding: 20px 10px;
   border: 1px solid #fff;
-  background: #000;
+  background: var(--main-color);
   color: #fff;
   animation: moveUp 0.5s ease-in-out both;
   margin: 0 auto;
