@@ -16,7 +16,7 @@ function GalleryImages() {
           node {
             id
             childImageSharp {
-              fluid {
+              fluid(maxWidth: 2440, quality: 100) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
@@ -24,7 +24,7 @@ function GalleryImages() {
         }
       }
       imageSharp(fluid: { originalName: { eq: "thumb-video.jpg" } }) {
-        fluid {
+        fluid(maxWidth: 2440, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }

@@ -9,7 +9,7 @@ const ModalVideoYT = () => {
   const query = useStaticQuery(graphql`
     query thumbVideo {
       imageSharp(fluid: { originalName: { eq: "thumb-video.jpg" } }) {
-        fluid {
+        fluid(maxWidth: 2440, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
