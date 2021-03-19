@@ -56,8 +56,14 @@ export const Item = styled.div`
 `
 export const ImageBg = styled.div`
   height: 100%;
+  width: 100%;
+  & > div {
+    height: 100%;
+    width: 100%;
+  }
   .gatsby-image-wrapper {
     height: 100%;
+    width: 100%;
   }
 `
 export const Description = styled.p`

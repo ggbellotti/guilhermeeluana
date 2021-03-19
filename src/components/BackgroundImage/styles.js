@@ -1,5 +1,7 @@
-import styled from 'styled-components';
+import Img from "gatsby-image"
+import styled from "styled-components"
 
-export const Container = styled.div`
-
-`;
+export const Image = styled(Img)`
+  width: 100%;
+  height: 100%;
+`

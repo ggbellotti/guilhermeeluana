@@ -1,7 +1,10 @@
+import "react-medium-image-zoom/dist/styles.css"
+
 import * as S from "./styles"
 
 import { Image } from "@/BackgroundImage"
 import React from "react"
+import Zoom from "react-medium-image-zoom"
 
 const MansoryCards = () => {
   return (
@@ -10,10 +13,12 @@ const MansoryCards = () => {
         <S.Content>
           <S.Item>
             <S.ImageBg>
-              <Image
-                name="_MG_3743-Editar"
-                alt="Guilherme e Luana no Morro da Capuava"
-              />
+              <Zoom>
+                <Image
+                  name="_MG_3743-Editar"
+                  alt="Guilherme e Luana no Morro da Capuava"
+                />
+              </Zoom>
             </S.ImageBg>
             {/* <S.Description>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -21,10 +26,12 @@ const MansoryCards = () => {
           </S.Item>
           <S.Item>
             <S.ImageBg>
-              <Image
-                name="_MG_4433.jpg"
-                alt="Guilherme e Luana no Morro da Capuava"
-              />
+              <Zoom>
+                <Image
+                  name="_MG_4433.jpg"
+                  alt="Guilherme e Luana no Morro da Capuava"
+                />
+              </Zoom>
             </S.ImageBg>
             {/* <S.Description>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -32,10 +39,12 @@ const MansoryCards = () => {
           </S.Item>
           <S.Item>
             <S.ImageBg>
-              <Image
-                name="_MG_4701.jpg"
-                alt="Guilherme e Luana no Morro da Capuava"
-              />
+              <Zoom>
+                <Image
+                  name="_MG_4701.jpg"
+                  alt="Guilherme e Luana no Morro da Capuava"
+                />
+              </Zoom>
             </S.ImageBg>
             {/* <S.Description>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -43,10 +52,12 @@ const MansoryCards = () => {
           </S.Item>
           <S.Item>
             <S.ImageBg>
-              <Image
-                name="_MG_4297.jpg"
-                alt="Guilherme e Luana no Morro da Capuava"
-              />
+              <Zoom>
+                <Image
+                  name="_MG_4297.jpg"
+                  alt="Guilherme e Luana no Morro da Capuava"
+                />
+              </Zoom>
             </S.ImageBg>
             {/* <S.Description>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit

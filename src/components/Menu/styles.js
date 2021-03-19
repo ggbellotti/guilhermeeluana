@@ -104,6 +104,10 @@ export const NavItem = styled.li`
       transform: ${({ open }) =>
         open ? "translateY(0)" : "translateY(-175px)"};
     }
+    &:nth-child(5) {
+      transform: ${({ open }) =>
+        open ? "translateY(0)" : "translateY(-200px)"};
+    }
   }
 `
 export const NavLink = styled(AnchorLink)`

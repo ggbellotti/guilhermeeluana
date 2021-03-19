@@ -28,7 +28,8 @@ export const BackgroundImage = styled.div`
     top: 0;
     z-index: 1;
     img {
-      object-position: center bottom !important;
+      object-position: center bottom !important; //Photo central
+      object-position: right bottom !important; //Photo left
     }
   }
 `

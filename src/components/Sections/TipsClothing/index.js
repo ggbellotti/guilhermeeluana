@@ -1,3 +1,5 @@
+import "react-medium-image-zoom/dist/styles.css"
+
 import * as S from "./styles"
 
 import { ButtonIcon } from "@/Buttons"
@@ -5,6 +7,7 @@ import ContentMain from "@/ContentMain"
 import { Image } from "@/BackgroundImage"
 import React from "react"
 import SidebarMenu from "@/SidebarMenu"
+import Zoom from "react-medium-image-zoom"
 
 const TipsClothing = () => {
   return (
@@ -33,19 +36,25 @@ const TipsClothing = () => {
           </p>
           <S.GridImages>
             <S.Item>
-              <Image name="op-m-1.jpeg" alt="Vestidos" />
+              <Zoom>
+                <Image name="op-m-1.jpeg" alt="Vestidos" />
+              </Zoom>
               <S.Legend>
                 Cores para praia - Vestidos bla bla bla bla bla
               </S.Legend>
             </S.Item>
             <S.Item>
-              <Image name="op-m-2.jpg" alt="Vestidos" />
+              <Zoom>
+                <Image name="op-m-2.jpg" alt="Vestidos" />
+              </Zoom>
               <S.Legend>
                 Cores para praia - Vestidos bla bla bla bla bla
               </S.Legend>
             </S.Item>
             <S.Item>
-              <Image name="op-m-3.jpg" alt="Vestidos" />
+              <Zoom>
+                <Image name="op-m-3.jpg" alt="Vestidos" />
+              </Zoom>
               <S.Legend>
                 Cores para praia - Vestidos bla bla bla bla bla
               </S.Legend>
@@ -53,19 +62,25 @@ const TipsClothing = () => {
           </S.GridImages>
           <S.GridImages>
             <S.Item>
-              <Image name="op-h-1.jpg" alt="Vestidos" />
+              <Zoom>
+                <Image name="op-h-1.jpg" alt="Vestidos" />
+              </Zoom>
               <S.Legend>
                 Cores para praia - Vestidos bla bla bla bla bla
               </S.Legend>
             </S.Item>
             <S.Item>
-              <Image name="op-h-2.jpg" alt="Vestidos" />
+              <Zoom>
+                <Image name="op-h-2.jpg" alt="Vestidos" />
+              </Zoom>
               <S.Legend>
                 Cores para praia - Vestidos bla bla bla bla bla
               </S.Legend>
             </S.Item>
             <S.Item>
-              <Image name="op-h-3.jpg" alt="Vestidos" />
+              <Zoom>
+                <Image name="op-h-3.jpg" alt="Vestidos" />
+              </Zoom>
               <S.Legend>
                 Cores para praia - Vestidos bla bla bla bla bla
               </S.Legend>

@@ -1,8 +1,7 @@
 import * as React from "react"
+import * as S from "./styles"
 
 import { StaticQuery, graphql } from "gatsby"
-
-import Img from "gatsby-image"
 
 const Image = ({ name, alt, className }) => (
   <StaticQuery
@@ -18,7 +17,7 @@ const Image = ({ name, alt, className }) => (
             publicURL
             extension
             sharp: childImageSharp {
-              fluid(maxWidth: 1920, quality: 70) {
+              fluid(maxWidth: 2440, quality: 100) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
@@ -60,7 +59,7 @@ const Image = ({ name, alt, className }) => (
           ({ publicURL }) => publicURL && publicURL.indexOf(name) !== -1
         )
         return image && image.sharp && image.sharp.fluid ? (
-          <Img
+          <S.Image
             className={className ? className : ""}
             fluid={image.sharp.fluid}
             alt={alt ? alt : ""}

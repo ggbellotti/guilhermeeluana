@@ -1,3 +1,5 @@
+import "react-medium-image-zoom/dist/styles.css"
+
 import * as S from "./styles"
 
 import { ButtonIcon } from "@/Buttons"
@@ -5,6 +7,7 @@ import ContentMain from "@/ContentMain"
 import { Image } from "@/BackgroundImage"
 import React from "react"
 import SidebarMenu from "@/SidebarMenu"
+import Zoom from "react-medium-image-zoom"
 
 const TipsInns = () => {
   return (
@@ -38,22 +41,28 @@ const TipsInns = () => {
           </p>
           <S.GridImages>
             <S.Item>
-              <Image
-                name="espaco-chico.png"
-                alt="Vista do prédio - Espaço Chico"
-              />
+              <Zoom>
+                <Image
+                  name="espaco-chico.png"
+                  alt="Vista do prédio - Espaço Chico"
+                />
+              </Zoom>
             </S.Item>
             <S.Item>
-              <Image
-                name="espaco-chico2.png"
-                alt="Local da cerimônia - Espaço Chico"
-              />
+              <Zoom>
+                <Image
+                  name="espaco-chico2.png"
+                  alt="Local da cerimônia - Espaço Chico"
+                />
+              </Zoom>
             </S.Item>
             <S.Item>
-              <Image
-                name="20200705_142223_01.jpg"
-                alt="Vista da praia - Espaço Chico"
-              />
+              <Zoom>
+                <Image
+                  name="20200705_142223_01.jpg"
+                  alt="Vista da praia - Espaço Chico"
+                />
+              </Zoom>
             </S.Item>
           </S.GridImages>
           <h2>Hotéis e pousadas próximos ao local da cerimônia</h2>
