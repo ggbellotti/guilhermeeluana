@@ -11,7 +11,10 @@ import Zoom from "react-medium-image-zoom"
 function GalleryImages() {
   const query = useStaticQuery(graphql`
     query indexQuery {
-      allFile(filter: { relativePath: { regex: "/gallery*/" } }) {
+      allFile(
+        filter: { relativePath: { regex: "/gallery*/" } }
+        sort: { fields: name }
+      ) {
         edges {
           node {
             id
@@ -21,11 +24,6 @@ function GalleryImages() {
               }
             }
           }
-        }
-      }
-      imageSharp(fluid: { originalName: { eq: "thumb-video.jpg" } }) {
-        fluid(maxWidth: 2440, quality: 100) {
-          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -48,19 +46,6 @@ function GalleryImages() {
           <ModalVideoYT />
         </S.ImagesBox>
       </S.Wrapper>
-      {/* <S.VideoEmbed open={open}>
-        <S.CloseBtn onClick={() => setOpen(!open)} title="Fechar vídeo">
-          <span>X</span>
-        </S.CloseBtn>
-        <S.Overlay onClick={() => setOpen(!open)} />
-        <iframe
-          title="Guilherme e Luana - Pré-wedding"
-          src="https://www.youtube.com/embed/DfL8ClkkbSw"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </S.VideoEmbed> */}
     </S.Container>
   )
 }

@@ -21,7 +21,7 @@ const TipsInns = () => {
       />
       <S.Container>
         <S.Wrapper>
-          <h3>Confira as pousadas que nós recomendamos</h3>
+          <h3>Dicas de pousadas para nossos convidados</h3>
           <h1>Viagem, pousadas e hoteis</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nibh

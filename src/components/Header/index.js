@@ -40,7 +40,7 @@ const Header = ({ title, subtitle }) => {
           </S.ScrollDown>
         ) : (
           <S.ScrollDown to="/#informacoes-e-dicas" title="Descer a página">
-            {/* <span>Descer</span> */}
+            <span>Mais informações</span>
             <svg
               width="20"
               height="20"

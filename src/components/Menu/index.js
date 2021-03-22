@@ -52,7 +52,7 @@ const Menu = () => {
         ))}
         {/* <S.NavItem open={open}>
           <S.NavLinkDefault
-            href="https://google.com.br"
+            href="https://casamento.pontofrio.com.br/guilhermeeluana"
             target="_blank"
             rel="noopener noreferrer"
             title="Lista de presentes"

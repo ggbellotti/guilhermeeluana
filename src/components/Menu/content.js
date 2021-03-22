@@ -17,7 +17,7 @@ const links = [
   },
   {
     label: "LISTA DE PRESENTES",
-    url: "https://google.com.br",
+    url: "https://casamento.pontofrio.com.br/guilhermeeluana",
   },
 ]
 export default links

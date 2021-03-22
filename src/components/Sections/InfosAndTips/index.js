@@ -185,7 +185,7 @@ const InfosAndTips = () => {
             <a
               className="buttonPrimary"
               title="Ver lista de presentes"
-              href="https://google.com.br"
+              href="https://casamento.pontofrio.com.br/guilhermeeluana"
               target="_blank"
               rel="noopener noreferrer"
             >
