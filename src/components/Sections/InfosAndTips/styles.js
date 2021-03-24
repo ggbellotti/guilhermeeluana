@@ -45,6 +45,9 @@ export const Description = styled.p`
     &:hover {
       text-decoration: underline;
     }
+    span {
+      text-decoration: underline;
+    }
   }
 `
 export const ButtonLink = styled.div`

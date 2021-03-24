@@ -12,6 +12,14 @@ const GlobalStyle = createGlobalStyle`
   .tl-edges{
     overflow: inherit!important;
   }
+  ::-moz-selection { 
+    color: white; 
+    background-color: var(--main-color)
+  }
+  ::selection { 
+    color: white; 
+    background-color: var(--main-color)
+  }
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,

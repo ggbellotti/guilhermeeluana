@@ -56,7 +56,7 @@ const InfosAndTips = () => {
                   title="Veja a rota"
                 >
                   Espaço Chico • Av. Nossa Senhora do Amparo, SN • São Sebastião
-                  • São Paulo
+                  • São Paulo <span>(veja a rota)</span>
                 </a>
               </S.Description>
             </S.WrapperHL>
@@ -97,7 +97,7 @@ const InfosAndTips = () => {
               <S.ItemTips title="Ver dicas de roupas" cover to="/dicas-roupas/">
                 <S.BackgroundTips>
                   <Image
-                    name="f128g1yd12.png"
+                    name="vestido_lavanda_semi_sereia_com_manga_voal_1800_1_19af74d96e9c4702ca8caec834409c84.jpg"
                     alt="Dicas de roupas para casamento de Guilherme e Luana"
                   />
                 </S.BackgroundTips>
@@ -107,7 +107,7 @@ const InfosAndTips = () => {
               <S.ItemTips title="Ver dicas de roupas" cover to="/dicas-roupas/">
                 <S.BackgroundTips>
                   <Image
-                    name="132dgs76371.png"
+                    name="homens-casamento-praia.jpg"
                     alt="Dicas de roupas para casamento de Guilherme e Luana"
                   />
                 </S.BackgroundTips>

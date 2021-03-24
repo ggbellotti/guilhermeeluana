@@ -19,24 +19,21 @@ const Prewedding = () => {
 
       <S.Container>
         <S.Wrapper id="ensaio">
-          <h3>Pré-wedding no Morro do Capuava</h3>
-          <h1>Um dos melhores lugares que já fotografamos</h1>
+          <h3>Um lugar maravilhoso</h3>
+          <h1>Nosso pré-weeding: Morro do capuava</h1>
           <p>
-            Queríamos um lugar aberto e com bastante ambientação natural para
-            fazermos nossas fotos de ensaio. Pesquisamos bastante e então,
-            decidimos fazer nossas fotos do pré-wedding no{" "}
-            <a
-              href="https://www.google.com/search?tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=ALeKk01EBXN33RRrrjsuczKpAYY7TtW7Qw:1615915187463&q=Morro+do+Capuava&rflfq=1&num=10&ved=2ahUKEwiVgfGVqbXvAhVpDrkGHS4lAOAQtgN6BAgGEAc#rlfi=hd:;si:13326474592732203433;mv:[[-23.398028,-46.9912169],[-23.399940100000002,-46.991461699999995]]"
-              rel="nofollow noreferrer"
-              target="_blank"
-              title="Veja o local do ensaio"
-            >
-              Morro do Capuava.
-            </a>
+            Esse foi sem dúvidas um dos lugares mais lindos que já tivemos o
+            prazer de conhecer e de fotografar, no dia 21/02/21. Uma paisagem
+            linda e com uma vista incomparável, um pedacinho do paraíso bem
+            pertinho de nós. Além do lugar, o mais especial de tudo foi que nós
+            mesmos tivemos o prazer de nos fotografar e com certeza isso fez
+            toda a diferença no nosso ensaio. Tivemos tudo do jeitinho que
+            imaginávamos, além de registrarmos eternamente momentos mágicos que
+            vivemos juntos.
           </p>
           <p>
-            Além disso, resolvemos fazer algumas filmagens rápidas de última
-            hora. Confira as fotos e os vídeos abaixo:
+            Seguem abaixo algumas fotos desse dia sensacional e um vídeo que foi
+            feito com muito amor e carinho!
           </p>
           <GalleryImages />
           <ButtonIcon to="/#prewedding" title="Voltar">

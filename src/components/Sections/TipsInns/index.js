@@ -22,22 +22,18 @@ const TipsInns = () => {
       <S.Container>
         <S.Wrapper>
           <h3>Dicas de pousadas para nossos convidados</h3>
-          <h1>Viagem, pousadas e hoteis</h1>
+          <h1>Viagem, pousadas e hotéis</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nibh
-            ipsum, posuere quis maximus non, interdum id lectus. Aliquam sed
-            porta dolor, vel facilisis orci. Aliquam feugiat mauris non
-            ullamcorper porta. Integer vitae neque arcu. Phasellus quam mi,
-            accumsan a mollis eu, gravida ac odio. Phasellus efficitur ligula eu
-            lorem hendrerit sollicitudin sit amet eget magna. Maecenas ultrices
-            odio non magna luctus viverra. Vestibulum posuere placerat sem, a
-            convallis ante porta eget. Duis ut imperdiet urna. Nulla id cursus
-            sapien.
+            Pensando no maior conforto de nossos queridos convidados, para quem
+            quiser, nossa dica é se hospedar ao entorno de São Sebastião um dia
+            antes. Isso evitará o cansaço da viagem e irá oferecer comodidade
+            para se arrumar e se preparar para o nosso grande dia.
           </p>
           <h2 className="h2Margin">O Espaço Chico</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nibh
-            ipsum, posuere quis maximus non, interdum id lectus.
+            O Espaço Chico oferece dois andares com vistas deslumbrantes para o
+            mar, além de um gramado, onde ocorrerá a cerimônia. Esperamos que
+            gostem do local e aproveitem esse dia conosco.
           </p>
           <S.GridImages>
             <S.Item>
@@ -197,11 +193,11 @@ const TipsInns = () => {
               </S.Legend>
             </S.Item>
           </S.GridImages>
-          <h2>Fique a vontade para pesquisar</h2>
+          <h2>Tomem a decisão de sua escolha</h2>
           <p>
-            Fique a vontade para pesquisar e ver o que é melhor para você e sua
-            família. Sabemos que nossos dias não estão fácéis, por isso queremos
-            dar o melhor conforto para vocês.
+            Não queremos que se sintam pressionados com suas decisões, nosso
+            objetivo é oferecer sempre o melhor para as pessoas que amamos, pois
+            sabemos que nossos dias não estão fáceis. Amamos vocês!
           </p>
           <ButtonIcon to="/#dicas-de-pousadas" title="Voltar">
             <svg

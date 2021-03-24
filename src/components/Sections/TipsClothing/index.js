@@ -21,69 +21,78 @@ const TipsClothing = () => {
       />
       <S.Container>
         <S.Wrapper>
-          <h3>Está em dúvida sobre sua vestimenta?</h3>
-          <h1>Dicas e recomendações de roupas</h1>
+          <h3>O que vestir em um casamento na praia?</h3>
+          <h1>Dicas e recomendações de vestimenta</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nibh
-            ipsum, posuere quis maximus non, interdum id lectus. Aliquam sed
-            porta dolor, vel facilisis orci. Aliquam feugiat mauris non
-            ullamcorper porta. Integer vitae neque arcu. Phasellus quam mi,
-            accumsan a mollis eu, gravida ac odio. Phasellus efficitur ligula eu
-            lorem hendrerit sollicitudin sit amet eget magna. Maecenas ultrices
-            odio non magna luctus viverra. Vestibulum posuere placerat sem, a
-            convallis ante porta eget. Duis ut imperdiet urna. Nulla id cursus
-            sapien.
+            No litoral o clima costuma ser quente, porém com bastante ventania;
+            o que pede um visual mais leve e de cores claras. Sendo assim,
+            indicamos que não usem roupas pesadas e nem chamativas demais, visto
+            que o casamento ocorrerá durante o dia. Outro detalhe importante é
+            que o traje deverá ser inteiramente social, evitando o uso de roupas
+            casuais, principalmente o chinelo.
           </p>
           <S.GridImages>
             <S.Item>
               <Zoom>
-                <Image name="op-m-1.jpeg" alt="Vestidos" />
+                <Image
+                  name="vestido_midi_estampado_rose_1740_1_1a8ba00ca758eca90db6bff6a1ecb074.jpg"
+                  alt="Vestidos"
+                />
               </Zoom>
-              <S.Legend>
+              {/* <S.Legend>
                 Cores para praia - Vestidos bla bla bla bla bla
-              </S.Legend>
+              </S.Legend> */}
             </S.Item>
             <S.Item>
               <Zoom>
-                <Image name="op-m-2.jpg" alt="Vestidos" />
+                <Image
+                  name="vestido_lavanda_semi_sereia_com_manga_voal_1800_1_19af74d96e9c4702ca8caec834409c84.jpg"
+                  alt="Vestidos"
+                />
               </Zoom>
-              <S.Legend>
+              {/* <S.Legend>
                 Cores para praia - Vestidos bla bla bla bla bla
-              </S.Legend>
+              </S.Legend> */}
             </S.Item>
             <S.Item>
               <Zoom>
-                <Image name="op-m-3.jpg" alt="Vestidos" />
+                <Image
+                  name="vestido_rose_com_manga_assimetrica_e_babados_1790_1_08a4abe71dd4f135ec1db2a52c5173c5.jpg"
+                  alt="Vestidos"
+                />
               </Zoom>
-              <S.Legend>
+              {/* <S.Legend>
                 Cores para praia - Vestidos bla bla bla bla bla
-              </S.Legend>
+              </S.Legend> */}
             </S.Item>
           </S.GridImages>
           <S.GridImages>
             <S.Item>
               <Zoom>
-                <Image name="op-h-1.jpg" alt="Vestidos" />
+                <Image
+                  name="noivo-casamento-praia-blazer-claro.jpg"
+                  alt="Vestidos"
+                />
               </Zoom>
-              <S.Legend>
+              {/* <S.Legend>
                 Cores para praia - Vestidos bla bla bla bla bla
-              </S.Legend>
+              </S.Legend> */}
             </S.Item>
             <S.Item>
               <Zoom>
-                <Image name="op-h-2.jpg" alt="Vestidos" />
+                <Image name="t10_2x_1439143.jpg" alt="Vestidos" />
               </Zoom>
-              <S.Legend>
+              {/* <S.Legend>
                 Cores para praia - Vestidos bla bla bla bla bla
-              </S.Legend>
+              </S.Legend> */}
             </S.Item>
             <S.Item>
               <Zoom>
-                <Image name="op-h-3.jpg" alt="Vestidos" />
+                <Image name="homens-casamento-praia.jpg" alt="Vestidos" />
               </Zoom>
-              <S.Legend>
+              {/* <S.Legend>
                 Cores para praia - Vestidos bla bla bla bla bla
-              </S.Legend>
+              </S.Legend> */}
             </S.Item>
           </S.GridImages>
           <ButtonIcon to="/#dicas-de-roupas" title="Voltar">
