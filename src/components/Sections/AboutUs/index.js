@@ -25,11 +25,10 @@ const AboutUs = () => {
           aumentou e decidimos que tínhamos encontrado a felicidade um no outro.
         </p>
         <p>
-          Esse tempo que estamos juntos (quase 2 anos) tem sido muito especial e
-          a nossa união matrimonial só vai acrescentar ainda mais amor,
-          cumplicidade e apoio em nossas vidas. Somos gratos a Jeová por nos
-          unir e também gratos por nossas famílias e amigos que sempre nos
-          apoiaram.
+          Nesses 2 anos que estamos juntos tem sido muito especial e a nossa
+          união matrimonial só vai acrescentar ainda mais amor, cumplicidade e
+          apoio em nossas vidas. Somos gratos a Jeová por nos unir e também
+          gratos por nossas famílias e amigos que sempre nos apoiaram.
         </p>
         <MansoryCards />
         <S.CallActionEnsaio id="prewedding">

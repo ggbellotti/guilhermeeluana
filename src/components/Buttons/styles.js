@@ -4,7 +4,7 @@ import styled from "styled-components"
 export const ButtonPrimary = styled(AnchorLink)`
   background-color: var(--fourth-color);
   color: white;
-  font-size: 0.8125rem;
+  font-size: 1rem;
   font-family: "Josefin Sans";
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -23,7 +23,7 @@ export const ButtonPrimary = styled(AnchorLink)`
 export const ButtonSecondary = styled(AnchorLink)`
   background-color: white;
   color: black;
-  font-size: 0.8125rem;
+  font-size: 1rem;
   font-family: "Josefin Sans";
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -41,7 +41,7 @@ export const ButtonSecondary = styled(AnchorLink)`
 `
 export const ButtonIcon = styled(AnchorLink)`
   font-family: "Josefin Sans";
-  font-size: 0.875rem;
+  font-size: 1rem;
   text-transform: uppercase;
   text-align: center;
   display: flex;

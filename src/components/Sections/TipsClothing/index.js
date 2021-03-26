@@ -70,8 +70,8 @@ const TipsClothing = () => {
             <S.Item>
               <Zoom>
                 <Image
-                  name="noivo-casamento-praia-blazer-claro.jpg"
-                  alt="Vestidos"
+                  name="t10_2x_1439143.jpg"
+                  alt="Dicas de roupas masculinas"
                 />
               </Zoom>
               {/* <S.Legend>
@@ -80,7 +80,10 @@ const TipsClothing = () => {
             </S.Item>
             <S.Item>
               <Zoom>
-                <Image name="t10_2x_1439143.jpg" alt="Vestidos" />
+                <Image
+                  name="noivo-casamento-praia-blazer-claro.jpg"
+                  alt="Dicas de roupas masculinas"
+                />
               </Zoom>
               {/* <S.Legend>
                 Cores para praia - Vestidos bla bla bla bla bla
@@ -88,7 +91,10 @@ const TipsClothing = () => {
             </S.Item>
             <S.Item>
               <Zoom>
-                <Image name="homens-casamento-praia.jpg" alt="Vestidos" />
+                <Image
+                  name="homens-casamento-praia.jpg"
+                  alt="Dicas de roupas masculinas"
+                />
               </Zoom>
               {/* <S.Legend>
                 Cores para praia - Vestidos bla bla bla bla bla

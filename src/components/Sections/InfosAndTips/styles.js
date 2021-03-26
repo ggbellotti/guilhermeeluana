@@ -36,7 +36,7 @@ export const Description = styled.p`
   margin: 0;
   a {
     font-family: "Didact Gothic";
-    font-size: 1rem;
+    font-size: 1.25rem;
     line-height: 1.6;
     letter-spacing: 1px;
     margin-bottom: 0;
@@ -56,7 +56,7 @@ export const ButtonLink = styled.div`
     padding: 8px 14px;
     background-color: var(--fourth-color);
     color: white;
-    font-size: 0.8125rem;
+    font-size: 1rem;
     font-family: "Josefin Sans";
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -151,7 +151,7 @@ export const TitleTips = styled.h1`
 export const LinkOff = styled.span`
   background-color: white;
   color: black;
-  font-size: 0.8125rem;
+  font-size: 1rem;
   font-family: "Josefin Sans";
   text-transform: uppercase;
   letter-spacing: 1px;

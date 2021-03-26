@@ -53,7 +53,7 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1.2;
     background-color: #fff;
     font-family: 'Didact Gothic';
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     background-color: var(--third-color);
     
@@ -81,22 +81,22 @@ const GlobalStyle = createGlobalStyle`
     padding: 5px;
   }
   h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 10px 0px 30px 0px;
     font-family: 'Cormorant';
   }
   h2{
     font-family: 'Josefin Sans';
     margin: 10px 0px 30px 0px;
-    font-size: 1.5rem;
+    font-size: 1.85rem;
   }
   h3{
     font-family: 'Cormorant';
-    font-size: 1.25rem;
+    font-size: 1.55rem;
   }
   p{
     font-family: 'Didact Gothic';
-    font-size: 1rem;
+    font-size: 1.25rem;
     line-height: 1.6;
     letter-spacing: 1px;
     margin-bottom: 10px;

@@ -168,19 +168,28 @@ export const Wrapper = styled.div`
   }
 `
 export const ImagesBox = styled.div`
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 15px;
-  width: 100%;
-  @media (max-width: 1024px) {
-    grid-template-columns: 1fr 1fr;
-  }
-  @media (max-width: 640px) {
-    grid-template-columns: 1fr;
+
+  & > div {
+    width: 100%;
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    @media (max-width: 1024px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 640px) {
+      grid-template-columns: 1fr;
+    }
   }
 `
-export const ItemsImages = styled.div`
+export const ItemsImages = styled.a`
   width: 100%;
+  text-decoration: none;
   & > div {
     width: 100%;
     height: 100%;

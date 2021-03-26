@@ -13,6 +13,15 @@ export const Container = styled.div`
   }
   .mansoryCard {
     margin-bottom: 90px;
+    @media (max-width: 575px) {
+      margin-bottom: 30px;
+    }
+  }
+  #prewedding {
+    @media (max-width: 575px) {
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
   }
 `
 export const CallActionEnsaio = styled.div`

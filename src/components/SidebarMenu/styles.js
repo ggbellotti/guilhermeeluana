@@ -57,7 +57,7 @@ export const Content = styled.div`
   }
 `
 export const TitleSection = styled.h3`
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-family: "Josefin Sans";
   font-weight: 300;
   color: white;

@@ -45,6 +45,11 @@ export const Item = styled.div`
   display: flex;
   flex-direction: column;
   /* background-color: var(--main-color); */
+  .firstItem {
+    img {
+      object-position: right !important;
+    }
+  }
 `
 export const Legend = styled.span`
   font-size: 1rem;
