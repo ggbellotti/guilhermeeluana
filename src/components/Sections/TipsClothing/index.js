@@ -35,8 +35,8 @@ const TipsClothing = () => {
             <S.Item>
               <Zoom>
                 <Image
-                  name="vestido_midi_estampado_rose_1740_1_1a8ba00ca758eca90db6bff6a1ecb074.jpg"
-                  alt="Vestidos"
+                  name="vestido_lavanda_semi_sereia_com_manga_voal_1800_1_19af74d96e9c4702ca8caec834409c84.jpg"
+                  alt="Dicas roupas femininas"
                 />
               </Zoom>
               {/* <S.Legend>
@@ -46,8 +46,8 @@ const TipsClothing = () => {
             <S.Item>
               <Zoom>
                 <Image
-                  name="vestido_lavanda_semi_sereia_com_manga_voal_1800_1_19af74d96e9c4702ca8caec834409c84.jpg"
-                  alt="Vestidos"
+                  name="vestido_midi_estampado_rose_1740_1_1a8ba00ca758eca90db6bff6a1ecb074.jpg"
+                  alt="Dicas roupas femininas"
                 />
               </Zoom>
               {/* <S.Legend>
@@ -58,7 +58,7 @@ const TipsClothing = () => {
               <Zoom>
                 <Image
                   name="vestido_rose_com_manga_assimetrica_e_babados_1790_1_08a4abe71dd4f135ec1db2a52c5173c5.jpg"
-                  alt="Vestidos"
+                  alt="Dicas roupas femininas"
                 />
               </Zoom>
               {/* <S.Legend>
