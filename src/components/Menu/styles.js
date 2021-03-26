@@ -24,7 +24,7 @@ export const MenuToggle = styled.a`
   right: 0;
   @media (max-width: 1024px) {
     background-color: var(--main-color);
-    padding: 5px;
+    padding: 9px 9px 2px 9px;
     display: flex;
     flex-direction: column;
     align-items: center;

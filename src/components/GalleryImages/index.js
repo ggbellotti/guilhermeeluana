@@ -30,10 +30,11 @@ function GalleryImages() {
           }
         }
       }
-      imageSharp(fluid: { originalName: { eq: "thumb-video.jpg" } }) {
+      imageSharp(fluid: { originalName: { eq: "thumb-video.png" } }) {
         fluid(maxWidth: 2440, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
           src
+          originalImg
         }
       }
     }
@@ -42,12 +43,30 @@ function GalleryImages() {
 
   const options = {
     buttons: {
-      backgroundColor: "rgba(30,30,36,0.8)",
-      iconColor: "rgba(255, 255, 255, 0.8)",
+      backgroundColor: "rgba(255,255, 255,1)",
+      iconColor: "rgba(0, 0, 0, 1)",
       iconPadding: "10px",
       showAutoplayButton: true,
       showCloseButton: true,
       showDownloadButton: false,
+      showThumbnailsButton: false,
+    },
+    progressBar: {
+      backgroundColor: "#f2f2f2",
+      fillColor: "#000000",
+      height: "3px",
+      showProgressBar: true,
+    },
+    translations: {
+      autoplayText: "Reproduzir fotos",
+      closeText: "Fechar",
+      downloadText: "Baixar",
+      fullscreenText: "Tela cheia",
+      nextText: "Próxima",
+      pauseText: "Pausar",
+      previousText: "Voltar",
+      thumbnailsText: "Esconder miniaturas",
+      zoomOutText: "Ampliar",
     },
   }
 
@@ -72,7 +91,10 @@ function GalleryImages() {
                         key={id}
                         title="Ampliar foto"
                       >
-                        <Img fluid={fluid} />
+                        <Img
+                          fluid={fluid}
+                          alt="Pré-wedding - Guilherme e Luana - Morro do Capuava"
+                        />
                       </S.ItemsImages>
                     )
                   )}
@@ -80,9 +102,19 @@ function GalleryImages() {
                 href="https://www.youtube.com/watch?v=DfL8ClkkbSw"
                 srl_video_thumbnail={query.imageSharp.fluid.src}
                 srl_video_caption="Pré-wedding - Guilherme e Luana"
-                title="Ampliar foto"
+                title="Assistir vídeo"
+                srl_width="100%"
+                srl_height="100%"
               >
-                <Img fluid={query.imageSharp.fluid} />
+                <img
+                  src={query.imageSharp.fluid.originalImg}
+                  alt="Pré-wedding - Guilherme e Luana - Morro do Capuava"
+                  style={{
+                    maxWidth: "100%",
+                    minHeight: "100%",
+                    objectFit: "cover",
+                  }}
+                />
               </S.ItemsImages>
             </SRLWrapper>
           </S.ImagesBox>
