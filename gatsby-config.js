@@ -82,7 +82,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Guilherm e Luana - Casamento`,
+        name: `Guilherme e Luana - Casamento`,
         short_name: `G&L Casamento`,
         start_url: `/`,
         lang: `bzs`,
