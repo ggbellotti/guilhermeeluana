@@ -85,10 +85,12 @@ module.exports = {
         name: `Casamento - Guilherme e Luana`,
         short_name: `G&L Casamento`,
         start_url: `/`,
+        lang: `bzs`,
         background_color: `#4B6A7E`,
         theme_color: `#4B6A7E`,
-        display: `standalone`,
-        icon: `static/img/icon-app.png`, // This path is relative to the root of the site.
+        display: `fullscreen`,
+        icon: `static/img/icon-app.png`,
+        crossOrigin: `use-credentials`,
       },
     },
     {
