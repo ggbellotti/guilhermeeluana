@@ -20,7 +20,7 @@ const Prewedding = () => {
       <S.Container>
         <S.Wrapper id="ensaio">
           <h3>Um lugar maravilhoso</h3>
-          <h1>Nosso pré-weeding: Morro do capuava</h1>
+          <h1>Nosso pré-wedding: Morro do capuava</h1>
           <p>
             Esse foi sem dúvidas um dos lugares mais lindos que já tivemos o
             prazer de conhecer e de fotografar, no dia 21/02/21. Uma paisagem
