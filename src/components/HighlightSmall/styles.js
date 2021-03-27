@@ -31,7 +31,7 @@ export const BackgroundImage = styled.div`
   .gatsby-image-wrapper {
     width: 50%;
     height: auto;
-    height: 600px;
+    height: 700px;
     picture img {
       object-position: ${props =>
         props.alignRight ? "right !important" : "center center !important"};

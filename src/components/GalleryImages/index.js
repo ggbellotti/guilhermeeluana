@@ -1,5 +1,3 @@
-import "react-medium-image-zoom/dist/styles.css"
-
 import * as S from "./styles"
 
 import { graphql, useStaticQuery } from "gatsby"
@@ -46,7 +44,7 @@ function GalleryImages() {
       backgroundColor: "rgba(255,255, 255,1)",
       iconColor: "rgba(0, 0, 0, 1)",
       iconPadding: "10px",
-      showAutoplayButton: true,
+      showAutoplayButton: false,
       showCloseButton: true,
       showDownloadButton: false,
       showThumbnailsButton: false,

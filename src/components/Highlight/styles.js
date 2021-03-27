@@ -19,7 +19,7 @@ export const BackgroundImage = styled.div`
   .gatsby-image-wrapper {
     width: 85%;
     height: auto;
-    max-height: 550px;
+    max-height: 700px;
     /* picture > img {
       width: 130% !important;
       object-position: -150px !important;

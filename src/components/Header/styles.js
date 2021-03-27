@@ -38,7 +38,7 @@ export const TextInfos = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 87vh;
   min-height: 500px;
   /* padding: 0 10px; */
   width: 100%;
