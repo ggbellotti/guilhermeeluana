@@ -106,7 +106,8 @@ const TipsInns = () => {
               <Image name="hotel-abrico.jpg" alt="Abricó Beach Hotel" />
               <S.Legend>
                 <span className="mark">Abricó Beach Hotel</span> - Há 6 minutos
-                de carro do Espaço Chico. Mais detalhes, clique aqui.
+                de carro do Espaço Chico. Veja{" "}
+                <span className="mark">mais detalhes aqui</span>.
               </S.Legend>
             </S.Item>
           </S.GridImages>
@@ -120,7 +121,8 @@ const TipsInns = () => {
               <Image name="porto-grande-hotel-.jpg" alt="Porto Grande Hotel" />
               <S.Legend>
                 <span className="mark">Porto Grande Hotel</span> - Há 7 minutos
-                de carro do Espaço Chico. Mais detalhes, clique aqui.
+                de carro do Espaço Chico. Veja{" "}
+                <span className="mark">mais detalhes aqui</span>.
               </S.Legend>
             </S.Item>
             <S.Item
@@ -132,7 +134,8 @@ const TipsInns = () => {
               <Image name="hostel-central.jpg" alt="Hostel Central" />
               <S.Legend>
                 <span className="mark">Hostel Central</span> - Há 12 minutos de
-                carro do Espaço Chico. Mais detalhes, clique aqui.
+                carro do Espaço Chico. Veja{" "}
+                <span className="mark">mais detalhes aqui</span>.
               </S.Legend>
             </S.Item>
             <S.Item

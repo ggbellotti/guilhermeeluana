@@ -36,8 +36,8 @@ export const GridImages = styled.div`
     grid-template-columns: 1fr;
     .gatsby-image-wrapper {
       height: 100%;
-      min-height: 250px;
-      max-height: 250px;
+      min-height: 350px;
+      max-height: 300px;
     }
   }
 `
