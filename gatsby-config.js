@@ -82,13 +82,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Casamento - Guilherme e Luana`,
+        name: `Guilherm e Luana - Casamento`,
         short_name: `G&L Casamento`,
         start_url: `/`,
         lang: `bzs`,
         background_color: `#4B6A7E`,
         theme_color: `#4B6A7E`,
-        display: `fullscreen`,
+        display: `standalone`,
         icon: `static/img/icon-app.png`,
         crossOrigin: `use-credentials`,
       },
