@@ -28,7 +28,7 @@ function GalleryImages() {
           }
         }
       }
-      imageSharp(fluid: { originalName: { eq: "thumb-video.png" } }) {
+      imageSharp(fluid: { originalName: { eq: "thumb-video.jpg" } }) {
         fluid(maxWidth: 2440, quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
           src
