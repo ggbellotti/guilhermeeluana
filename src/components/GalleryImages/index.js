@@ -4,8 +4,7 @@ import { graphql, useStaticQuery } from "gatsby"
 
 import Img from "gatsby-image"
 import React from "react"
-import { SRLWrapper } from "simple-react-lightbox-pro"
-import SimpleReactLightbox from "simple-react-lightbox-pro"
+import SimpleReactLightbox, { SRLWrapper } from "simpler-react-lightbox"
 
 // import Zoom from "react-medium-image-zoom"
 
@@ -77,25 +76,25 @@ function GalleryImages() {
               {itemsImage.length === 0
                 ? ""
                 : itemsImage.map(
-                    ({
-                      node: {
-                        id,
-                        publicURL,
-                        childImageSharp: { fluid },
-                      },
-                    }) => (
-                      <S.ItemsImages
-                        href={publicURL}
-                        key={id}
-                        title="Ampliar foto"
-                      >
-                        <Img
-                          fluid={fluid}
-                          alt="Pré-wedding - Guilherme e Luana - Morro do Capuava"
-                        />
-                      </S.ItemsImages>
-                    )
-                  )}
+                  ({
+                    node: {
+                      id,
+                      publicURL,
+                      childImageSharp: { fluid },
+                    },
+                  }) => (
+                    <S.ItemsImages
+                      href={publicURL}
+                      key={id}
+                      title="Ampliar foto"
+                    >
+                      <Img
+                        fluid={fluid}
+                        alt="Pré-wedding - Guilherme e Luana - Morro do Capuava"
+                      />
+                    </S.ItemsImages>
+                  )
+                )}
               <S.ItemsImages
                 href="https://www.youtube.com/watch?v=DfL8ClkkbSw"
                 srl_video_thumbnail={query.imageSharp.fluid.src}
